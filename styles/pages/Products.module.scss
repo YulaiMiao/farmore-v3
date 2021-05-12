@@ -1,0 +1,108 @@
+.arrow{
+    display: inline-block;
+    // margin-top: 20px;
+    color: white;
+    transition: all .3s;
+    margin-left: 1rem;
+
+}
+.products{
+    display:flex;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    transition: all .3s;
+
+
+    &__title:hover{
+        cursor: pointer;
+       & .arrow{
+           color: black;
+       }
+    }
+
+   
+
+    &__card{
+        flex: 0 0 33.33333%;
+        margin-top: 4rem;
+        // margin-right: 1rem;
+
+        &__content{
+            margin-left:0;
+            &::after{
+                content: "";
+                display: block;
+                height: 2px;
+                background: black;
+                width: 77%;
+                // margin: 0 auto;
+            }
+
+            & h3{
+                font-size: 32px;
+                line-height: 39px;
+
+            }
+        }
+    }
+
+   
+
+    &__features{
+        list-style: none;
+        line-height: 24px;
+        margin-left: -40px;
+        text-transform: capitalize;
+    }
+}
+
+.orderBtn{
+    background-color: #00986A;
+    height: 3.5rem;
+    width: 11rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    cursor: pointer;
+    
+    &:hover{
+        color: black;
+        box-shadow: 6px 6px 0 black;
+    }
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+
+    &__heading{
+        flex-direction: row;
+    }
+
+    &__icon{
+        margin-left: 3.3rem;
+    }
+
+    &__options{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.clearBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 56px;
+    width: 81px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+
+    &:hover{
+        color: white;
+    }
+}

@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "AndaleMono", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -11,6 +11,112 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: #F944A2;
+}
+
 * {
   box-sizing: border-box;
+}
+
+@font-face{
+  font-family: "Impact";
+  src: url('/assets/fonts/impact.ttf');
+}
+@font-face{
+  font-family: "AndaleMono";
+  src: url('/assets/fonts/AndaleMono.ttf');
+}
+
+
+h1,h2,h3,h4,h5{
+  font-family: "Impact";
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 50px;
+  line-height: 61px;
+}
+
+h3{
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.banner{
+  max-height: 93vh;
+  height: 93vh;
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+
+}
+.banner__text{
+      position: absolute;
+      width: 550px;
+      height: 471px;
+      left: 73px;
+      top: 135px;
+
+      font-family: Impact;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 92px;
+      line-height: 86px;
+  }
+
+.banner__vector{
+      position: absolute;
+      bottom: 0;
+  }
+
+.content{
+  padding: 0 80px;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 11px;
+}
+
+
+input, textarea{
+  background-color:  rgb(255, 174, 0);
+  border: 1px solid black;
+}
+
+input{
+  height: 60px;
+  margin: 5px 0;
+}
+textarea{
+  height: 150px;
+}
+input[type=submit]{
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  height: 58px;
+  width: 121px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 6rem;
+  cursor: pointer;
+}
+
+
+
+.show{
+  display: block  !important;
 }

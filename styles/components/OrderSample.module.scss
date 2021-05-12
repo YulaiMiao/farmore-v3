@@ -1,0 +1,28 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.4);
+    display: none;
+}
+.modalHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.modalWrapper{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(255, 174, 0);
+    padding: 40px;
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

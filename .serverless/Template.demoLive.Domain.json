@@ -1,0 +1,13 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "farmore.co",
+  "subdomains": [
+    {
+      "domain": "www.farmore.co",
+      "distributionId": "EVSFUOL16Z3FQ",
+      "url": "https://d1su8h1pk1mcqh.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ]
+}

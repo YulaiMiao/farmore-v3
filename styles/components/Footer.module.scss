@@ -1,0 +1,30 @@
+.FooterWrapper{
+    font-family: "Impact";
+    letter-spacing: 1.5px;
+
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    justify-content: space-between;
+    flex:auto;
+
+}
+
+.footerMenu, .socialIcons{
+    list-style: none;
+
+    text-transform: uppercase;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: space-between;
+    &__items{
+        padding-left: 20px;
+        &:last-child{
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+
+.modalHeading{
+    // margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.modalWrapper{
+    width: 900px;
+    // height: 86vh;
+
+    margin: 0 auto;
+    // background-color: rgb(255, 174, 0);
+    padding: 40px;
+    // position: fixed;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+
+    input, textarea{
+        background-color: transparent;
+    }
+
+    input[type="submit"]{
+        background-color: black;
+    }
+}

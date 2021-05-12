@@ -1,0 +1,169 @@
+[{
+    "id": 1,
+    "varietal": "Green Gesha",
+    "image":"castillo.png",
+    "description": "Soursop, passion fruit and honey.",
+    "features": {
+        "region":"Herrera, Tolima",
+        "altitude": "1800m",
+        "process": "Honey",
+        "harvest": ""
+    },
+    "producer": "Katerinne Gutierrez"
+},
+{
+    "id": 2,
+    "varietal": "Red Wush Wush",
+    "image":"pink-burbon.png",
+    "description": "Dried Plum, treetomatoes and hints of eucalyptus",
+    "features": {
+        "region":"Herrera Tolima",
+        "altitude": "1800m",
+        "process": "Natural",
+        "harvest": ""
+    },
+    "producer": "Katerinne Gutierrez"
+},
+{
+    "id": 3,
+    "varietal": "Caturra",
+    "image":"pink-burbon.png",
+    "description": "Beautiful flowery aromas. Hints of honey, Red fruits,brown sugar and malt with a strawberry finish. Delicate body with a crisp grape acidity.",
+    "features": {
+        "region":"Palestina, Huila",
+        "altitude": "1800m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Alirio Aguilera"
+},
+{
+    "id": 4,
+    "varietal": "Pink Burbon",
+    "image":"pink-burbon.png",
+    "description": "Complex and flowery coffee. Notes of red fruits on a medium delicate body. Grape acidity and pleasant aftertaste",
+    "features": {
+        "region":"San Agustin, Huila",
+        "altitude": "1800m",
+        "process": "Honey",
+        "harvest": ""
+    },
+    "producer": "Aleida Morales (Women in Coffee"
+},
+{
+    "id": 5,
+    "varietal": "Pink Bourbon",
+    "image":"pink-burbon.png",
+    "description": "Exceptional cup, Rose Petal and hints of lavender. Flavours of passionfruit, plum and figs. Silky body with long sweet aftertaste.",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1650m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+},
+{
+    "id": 6,
+    "varietal": "Yellow Colombia",
+    "image":"pink-burbon.png",
+    "description": "Intense aromas of flowers and honey. Sweet and juicy with exotic flavours like granadilla.",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1650m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+},
+{
+    "id": 7,
+    "varietal": "Yellow Tabi",
+    "image":"pink-burbon.png",
+    "description": "Green apple, quince, guava and mandarin. Juicy mouth feel & a sweet finish.",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1650m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+},
+{
+    "id": 8,
+    "varietal": "Gesha",
+    "image":"pink-burbon.png",
+    "description": "Soft, clean and sweet with hints of stonefruit and heavy mouthfeel; very floral with jasmine and rose, lemon, lime and red grape flavors",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1650m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+},
+{
+    "id": 9,
+    "varietal": "Wush Wush",
+    "image":"pink-burbon.png",
+    "description": "Very rich and very unique in flavor, and it can develop clear wild rose notes, to complex herbal profiles, but usually a stone fruit note",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1650m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+},
+{
+    "id": 10,
+    "varietal": "Pink Bourbon",
+    "image":"pink-burbon.png",
+    "description": "Gingerbread and bubblegum, strawberry, mandarin, honey. Creamy body with a very prolongued aftertaste.",
+    "features": {
+        "region":"San Adolfo, Huila",
+        "altitude": "1700m",
+        "process": "Honey",
+        "harvest": ""
+    },
+    "producer": "Wilder Lazo"
+},
+{
+    "id": 11,
+    "varietal": "Yellow Colombia",
+    "image":"pink-burbon.png",
+    "description": "Extremely complex cup with notes of red wine and aromas of dried fruit. Flavoursome, sweet and juicy.",
+    "features": {
+        "region":"Buenavista, Quindio",
+        "altitude": "1700m",
+        "process": "Natural",
+        "harvest": ""
+    },
+    "producer": "Sara Gutierrez (women in coffee)"
+},
+{
+    "id": 12,
+    "varietal": "Castillo Colombia",
+    "image":"pink-burbon.png",
+    "description": "pleasant and sweet coffee with clean caramel, malt and brown sugar notes. Perfect blending coffee",
+    "features": {
+        "region":"Buenavista, Quindio",
+        "altitude": "1700m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Sara Gutierrez (women in coffee)"
+},
+{
+    "id": 13,
+    "varietal": "Castillo Colombia",
+    "image":"pink-burbon.png",
+    "description": "Extremely clean with notes of chocolate, panela sugar, spices and caramel. Very juicy with hints of almonds and mandarin.",
+    "features": {
+        "region":"Bruselas, Huila",
+        "altitude": "1250m",
+        "process": "Washed",
+        "harvest": ""
+    },
+    "producer": "Jose Ordonez"
+}]

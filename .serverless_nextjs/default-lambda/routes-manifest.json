@@ -1,0 +1,1 @@
+{"version":3,"pages404":true,"basePath":"","redirects":[],"headers":[],"dynamicRoutes":[{"page":"/products/[slug]","regex":"^/products/([^/]+?)(?:/)?$","routeKeys":{"slug":"slug"},"namedRegex":"^/products/(?<slug>[^/]+?)(?:/)?$"}],"dataRoutes":[],"rewrites":[]}
